@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="md5.js"></script>
+</head>
+<body>
+<input type="text" id="zhanghao" />
+<button  onclick="md_5()">提交</button>
+
+</body>
+</html>
+<script>
+
+        function md_5(){
+            var zhanghao=document.getElementById('zhanghao').value;
+            console.log(md5(zhanghao));
+
+        }
+</script>
